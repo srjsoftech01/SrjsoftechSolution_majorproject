@@ -1,7 +1,7 @@
 import "./App.css"
 import About from "./components/About/About.jsx";
 import CompanyAbout from "./components/CompanyAbout/CompayAbout.jsx";
-import Footer from "./components/footer/footer.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
 import Industries from "./components/Industries/Industries.jsx";
