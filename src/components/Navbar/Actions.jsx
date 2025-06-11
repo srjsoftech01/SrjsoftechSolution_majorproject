@@ -1,0 +1,49 @@
+import { useState } from "react"
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+
+
+const Actions = () => {
+
+ const [showcard, setShowCard] = useState(false);
+
+  return (
+    <div className="flex items-center space-x-3">
+        <div className="relative"
+         onMouseEnter={() => setShowCard(true)}
+         onMouseLeave={() => setShowCard(false)}
+        >
+        <div className="p-4 font-bold rounded-full bg-gradient-to-r from-pink-500 to-yellow-400 text-white ">
+            <FaPhoneAlt/>
+        </div>
+          
+          {
+            showcard && (
+                <div className="absolute right-0 mt-2 w-[280px] bg-white rounded-2xl shadow-lg z-50">
+                       <div className="px-4 py-2 border-b font-semibold text-gray-800">
+            AmbeyTech Contacts
+          </div>
+          <div className="bg-blue-50 px-4 py-3 space-y-2">
+            <div className="text-xs text-gray-500">FOR WEB</div>
+            <div className="flex items-center space-x-2 text-black font-bold">
+              <FaPhoneAlt className="text-green-500" />
+              <span>(+91) 800-900-4488</span>
+            </div>
+            <div className="flex items-center space-x-2 text-sm text-gray-600">
+              <FaEnvelope className="text-blue-600" />
+              <span>srjsoftechsolution@gmail.com</span>
+            </div>
+          </div>
+                </div>
+            )
+          }
+
+
+        </div>
+        <button className="px-4 py-4 rounded-4xl bg-gradient-to-r from-purple-500 to-blue-500  text-white font-semibold">
+            Request A Quote
+        </button>
+    </div>
+  )
+}
+
+export default Actions
