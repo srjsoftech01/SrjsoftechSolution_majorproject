@@ -20,17 +20,17 @@ const Actions = () => {
             showcard && (
                 <div className="absolute right-0 mt-2 w-[280px] bg-white rounded-2xl shadow-lg z-50">
                        <div className="px-4 py-2 border-b font-semibold text-gray-800">
-            AmbeyTech Contacts
+            Srj Softech Solutions Contacts
           </div>
           <div className="bg-blue-50 px-4 py-3 space-y-2">
             <div className="text-xs text-gray-500">FOR WEB</div>
             <div className="flex items-center space-x-2 text-black font-bold">
               <FaPhoneAlt className="text-green-500" />
-              <span>(+91) 800-900-4488</span>
+              <span>09266594199</span>
             </div>
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <FaEnvelope className="text-blue-600" />
-              <span>srjsoftechsolution@gmail.com</span>
+              <span>srjsoftechsolutions@gmail.com</span>
             </div>
           </div>
                 </div>

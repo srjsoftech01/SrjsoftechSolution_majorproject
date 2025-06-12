@@ -6,7 +6,7 @@ const Dropdown = ({title, isOpen,setOpen ,items , width}) => {
         <button 
          onMouseEnter={()=> setOpen(true)}
          onMouseLeave={() => setOpen(false)}
-         className='px-3 py-1 bg-[#1701A1]  text-white rounded font-semibold hover:bg-white hover:text-[#1701A1] tansition'
+         className='px-3 py-1 bg-[#181734]  text-white rounded font-semibold hover:bg-white hover:text-[#1701A1] tansition'
         >
             {title}+
         </button>

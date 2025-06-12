@@ -5,7 +5,10 @@ import HeroCarousel from './HeroCarousel.jsx'
 const HeroSection = () => {
   return (
     
-            <section className="bg-[#230faa] w-full pt-40  pb-20">
+            <section className=" w-full pt-40  pb-20 bg-cover bg-center bg-no-repeat" 
+              style={{
+                backgroundImage: "url('.././bg-1.jpg')"
+              }}>
                 <div className="max-w-7xl mx-auto pl-20 px-4 flex flex-col lg:flex-row items-center gap-10">
                      <div className="flex-1">
                     <HeroText/>

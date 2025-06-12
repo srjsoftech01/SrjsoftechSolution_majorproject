@@ -34,7 +34,7 @@ const Footer = () => {
                         <strong>Phone</strong>
                         <p>(+91) 9266594199</p>
                         <p>(+91) 9266872499</p>
-                         <p>(+91) 9266872499</p>
+                         <p>(+91) 9220578799</p>
                     </div>
                 </li> 
                 <li className='flex items-gap gap-2'>
