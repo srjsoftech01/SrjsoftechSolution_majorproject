@@ -17,22 +17,7 @@ const HeroText = () => {
       </button>
 
     </div>  
-    // <div className='max-w-md'>
-    //     <h1 className='text-5xl font-bold leading-tight mb-4'>
-    //         WEB.<br/>MOBILE.<br/>GRAPHIC.<br/>MARKETING.
-    //     </h1>
-    //     <p className='text-yellow-400 mb-6 text-lg'>
-    //         Website and App development solution for transforming and innovating businesses.
-    //     </p>
-    //     <div className="flex flex-col sm:flex-row gap-4 ">
-    //         <button className='bg-gradient-to-r from-pin-500 to-red-400 text-white font-semibold px-6 py-3 rounded-full cursor-pointer'>
-    //             Enquire Now &gt;
-    //         </button>
-
-    //         <a href="" className='bg-green-600 text-white font-medium px-6 py-3 rounded-full'>
-    //             Chat with us </a>
-    //     </div>
-    // </div>
+    
   )
 }
 
