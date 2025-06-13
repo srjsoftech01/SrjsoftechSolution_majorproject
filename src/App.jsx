@@ -1,31 +1,26 @@
 import "./App.css"
-import About from "./components/About/About.jsx";
-import CompanyAbout from "./components/CompanyAbout/CompayAbout.jsx";
-import InputForm from "./components/ContactForm/InputForm.jsx";
-import Footer from "./components/footer/Footer.jsx";
 
-import HeroSection from "./components/HeroSection/HeroSection.jsx";
-import Industries from "./components/Industries/Industries.jsx";
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Services from "./components/Services/Services.jsx";
-import WhatsAppChatButton from "./components/Whatsapp/WhatsAppChatButton.jsx";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home";
+import NavAbout from "./components/navcontainer/NavAbout";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 
 
-const App = () =>{
 
 
+
+const App = () => {
+   
   return(
-    <>
-    <Navbar/>
-    <HeroSection/>
-    <About/>
-    <Services/>
-    <Industries/>
-    <CompanyAbout/>
-    <InputForm/>
-    <WhatsAppChatButton/>
-    <Footer/>
-    </>
+     <Router>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<NavAbout/>}  />
+        <Route path="/services" element={<ServicesNavbar/>}/>
+      </Routes>
+     </Router>
   )
 }
 

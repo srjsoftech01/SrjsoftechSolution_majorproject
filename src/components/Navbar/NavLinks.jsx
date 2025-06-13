@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Dropdown from './Dropdown'
+import { Link } from 'react-router-dom'
 
 const servicesItems = [
     {
@@ -50,19 +51,21 @@ const NavLinks = () => {
 
   return (
     <div className='hidden md:flex items-center space-x-6'>
-        <a href="#" className='hover:underline text-white'>HOME</a>
+        <Link to="/"  className='hover:underline text-white'>HOME</Link>
 
         {/* services Dropdown */}
-        <Dropdown
+        {/* <Dropdown
          title="SERVICES"
          isOpen={open.services} // Boolean to control dropdown visibility
          setOpen={handleServicesOpen}
          items={servicesItems}
          width="w-[600px]"
 
-        />
+        /> */}
+        <Link to="/services" className="hover:underline text-white">SERVICES</Link>
 
-        <a href="#" className='hover:underline'>ABOUT US</a>
+    
+        <Link to="/about" className='hover:underline text-white'>ABOUT US</Link>
 
         <Dropdown 
            title="INDUSTRIES"
