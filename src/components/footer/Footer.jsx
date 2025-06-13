@@ -9,7 +9,7 @@ const Footer = () => {
             <img src=".././logo1.jpg"
              alt="Logo" className='w-32 mb-4  mt-2 rounded-2xl '/>
             <p className='text-sm'>
-                We are best website & mobile app development company as per your
+                We are best website & mobile application development company as per your
                   requirement with your budget.
             </p>
             <button className='mt-6 px-6 py-2 text-white rounded-full
