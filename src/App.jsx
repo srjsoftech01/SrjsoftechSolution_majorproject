@@ -1,6 +1,7 @@
 import "./App.css"
 import About from "./components/About/About.jsx";
 import CompanyAbout from "./components/CompanyAbout/CompayAbout.jsx";
+import InputForm from "./components/ContactForm/InputForm.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
@@ -21,6 +22,7 @@ const App = () =>{
     <Services/>
     <Industries/>
     <CompanyAbout/>
+    <InputForm/>
     <WhatsAppChatButton/>
     <Footer/>
     </>
