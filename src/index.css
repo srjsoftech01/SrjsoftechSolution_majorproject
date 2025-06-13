@@ -1,4 +1,9 @@
 @import "tailwindcss";
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

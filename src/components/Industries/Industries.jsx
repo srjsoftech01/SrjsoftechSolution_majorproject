@@ -71,13 +71,14 @@ const Industries = () => {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-8">
         {/* Left Content */}
         <div className="lg:w-1/3  md:pt-40">
-          <p className="text-pink-600 font-semibold uppercase tracking-wide mb-2">
+          <p className="text-red-500 font-semibold uppercase tracking-wide mb-2">
             Industries We Work For
           </p>
-          <h2 className="text-2xl md:text-4xl font-bold text-blue-950 mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-blue-950 mb-4 
+          text-base  bg-gradient-to-r from-orange-500 to-yellow-400 text-transparent bg-clip-text">
             Helping Businesses in All Domains
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-blue-600 text-lg ">
             Successfully delivered digital products to all fields.
           </p>
         </div>
