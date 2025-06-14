@@ -50,13 +50,14 @@ const ServiceCard = ({ image, title, description, path }) => {
         <p className="text-gray-200 text-sm md:text-base mb-4 leading-relaxed transition-all duration-300 hover:text-gray-100">
           {description}
         </p>
-        <button className="text-green-500 font-medium hover:text-blue-300 hover:underline transition-all duration-300">
+        <button onClick={()=> Navigate()} className="text-green-500 font-medium hover:text-blue-300 hover:underline transition-all duration-300">
           Learn More ➜
         </button>
       </div>
     </Link>
   );
 };
+
 
 export default ServiceCard;
 

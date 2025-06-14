@@ -5,7 +5,7 @@
             image:"https://www.ambeytech.com/uploads/091120241731144577_website-designing-icon.webp",
             title:"Website Designing",
             description:"We are inventive and imaginative in website composition and our essential center is to add new elements that can set down to guarantee a good outcome for your internet based business. Our imaginative planning group invests the energy to get your business goals and target specialty prior to beginning the planning system.",
-            path:"/services/website-design",
+            path:"/services/:appdev",
         },
          {
             image:"https://www.ambeytech.com/uploads/091120241731145290_web-development-icon.webp",

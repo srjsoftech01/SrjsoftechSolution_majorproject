@@ -74,6 +74,7 @@ const NavLinks = () => {
            items={industriesItems}
            width="w-[400px]"
         />
+        <Link to="/industries" className='hover:underline text-white'>INDUSTRIES</Link>
 
         <a href="#" className='hover:underline'>BLOG</a>
         <a href="#" className='hover:underline'>CONTACT US</a>
