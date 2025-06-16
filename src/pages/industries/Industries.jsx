@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CarouselData from "./CarouselData";
 import Footer from "../../components/footer/Footer";
 import WhyChooseUs from "../aboutpages/WhyChooseUs";
+import IndustriesItem from "../mainindustries/IndustriesItem";
 
 const Industries = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,7 +12,7 @@ const Industries = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % slideLength);
-    }, 700); 
+    }, 2000); 
     return () => clearInterval(interval); 
   }, [slideLength]);
 
@@ -42,8 +43,6 @@ const Industries = () => {
                 className="w-full h-full object-cover"
               />
 
-              
-              
              <div className="absolute inset-x-0 bottom-24 flex justify-center px-4">
                 <div className="bg-white/30 backdrop-blur-md px-6 py-5 rounded-xl shadow-lg text-center w-full max-w-xl">
                   <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-3">
@@ -111,6 +110,7 @@ const Industries = () => {
         </button>
       </div>
     </div>
+    <IndustriesItem/>
     <WhyChooseUs/>
     <Footer/>
     
