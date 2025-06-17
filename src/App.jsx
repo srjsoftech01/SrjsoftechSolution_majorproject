@@ -5,9 +5,9 @@ import Home from "./pages/Home";
 import NavAbout from "./components/navcontainer/NavAbout";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
-import Industries from "./pages/industries/industries";
+// import Industries from "./pages/industries/industries";
 
-import ContactUs from "./components/ContactUs/ContactUs";
+
 import ContactUsNew from "./components/ContactUs/ContactUSNew";
 
 import AppDev from "./allsubpages/appdevelopment/AppDev";
@@ -26,6 +26,9 @@ import WordPress from "./allsubpages/wordpressdevelopment/WordPress";
 import BulkSMS from "./allsubpages/bulksms/BulkSMS";
 import ContentWriting from "./allsubpages/contentwriting/ContentWriting";
 import LogoDesign from "./allsubpages/logodesign/LogoDesign";
+import Industries from "./components/Industries/Industries";
+import IndustriesAll from "./pages/industries/IndustriesAll";
+// import Industries from "./components/Industriesndustries/Industries";
 
 
 
@@ -41,7 +44,7 @@ const App = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<NavAbout/>}  />
         <Route path="/services" element={<ServicesNavbar/>}/>
-        <Route path="/industries" element={<Industries/>}/>
+        <Route path="/industries" element={<IndustriesAll/>}/>
 
         // <Route path="/services/:appdev" element={<AppDev/>} />
         // <Route path="/contact_us" element={<ContactUsNew/>} />
