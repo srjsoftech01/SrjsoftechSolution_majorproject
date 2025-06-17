@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 import Industries from "./pages/industries/industries";
 import AppDev from "./pages/contents/content_services/appsection.jsx/AppDev";
+import ContactUs from "./components/ContactUs/ContactUs";
+import ContactUsNew from "./components/ContactUs/ContactUSNew";
 
 
 
@@ -23,6 +25,7 @@ const App = () => {
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<Industries/>}/>
         <Route path="/services/:appdev" element={<AppDev/>} />
+        <Route path="/contact_us" element={<ContactUsNew/>} />
       </Routes>
      </Router>
   )
