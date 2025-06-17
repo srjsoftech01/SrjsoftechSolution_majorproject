@@ -20,7 +20,7 @@ const OverviewSection = () => {
             App website near me
           </h2>
           <p className="text-gray-700 mb-4">
-            Welcome to Ambeytech, a leading web design and mobile app development
+            Welcome to Srj softech solutions, a leading web design and mobile app development
             company in Delhi. We specialize in providing custom solutions to businesses
             of all sizes, ranging from small startups to large enterprises. Our team of
             expert designers and developers work closely with our clients to understand

@@ -53,27 +53,19 @@ const NavLinks = () => {
     <div className='hidden md:flex items-center space-x-6'>
         <Link to="/"  className='hover:underline text-white'>HOME</Link>
 
-        {/* services Dropdown */}
-        {/* <Dropdown
-         title="SERVICES"
-         isOpen={open.services} // Boolean to control dropdown visibility
-         setOpen={handleServicesOpen}
-         items={servicesItems}
-         width="w-[600px]"
-
-        /> */}
+      
         <Link to="/services" className="hover:underline text-white">SERVICES</Link>
 
     
         <Link to="/about" className='hover:underline text-white'>ABOUT US</Link>
 
-        <Dropdown 
+        {/* <Dropdown 
            title="INDUSTRIES"
            isOpen={open.industries}
            setOpen= {handleIndustriesOpen}
            items={industriesItems}
            width="w-[400px]"
-        />
+        /> */}
         <Link to="/industries" className='hover:underline text-white'>INDUSTRIES</Link>
 
         <a href="#" className='hover:underline'>BLOG</a>

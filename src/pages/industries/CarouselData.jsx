@@ -2,33 +2,33 @@
 
 const CarouselData = [
      {
-    image: ".././digitalmarketing.avif",
+    image: ".././digitalmarket.jpeg",
     tagline: "Empowering Digital Transformation",
-    buttonText: "Know More",
+    // buttonText: "Know More",
     link: "/industries/digital-transformation",
   },
   {
     image: ".././educationindustries.avif",
     tagline: "Innovating Healthcare Solutions",
-    buttonText: "Explore",
+    // buttonText: "Explore",
     link: "/industries/healthcare",
   },
   {
-    image: "/images/industry3.jpg",
+    image: ".././smartcities.avif",
     tagline: "Smart Tech for Smart Cities",
-    buttonText: "Discover",
+    // buttonText: "Discover",
     link: "/industries/smart-cities",
   },
   {
     image: ".././educationindustries.avif",
     tagline: "Revolutionizing Education Systems",
-    buttonText: "Learn More",
+    // buttonText: "Learn More",
     link: "/industries/education",
   },
   {
-    image: "/images/industry5.jpg",
+    image: ".././ecommerceandretail.avif",
     tagline: "Next-Gen E-Commerce Platforms",
-    buttonText: "Get Started",
+    // buttonText: "Get Started",
     link: "/industries/ecommerce",
   },
 ];
