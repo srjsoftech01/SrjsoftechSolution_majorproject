@@ -6,7 +6,7 @@ import NavAbout from "./components/navcontainer/NavAbout";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 import Industries from "./pages/industries/industries";
-// import AppDev from "./pages/contents/content_services/appsection.jsx/AppDev";
+
 import ContactUs from "./components/ContactUs/ContactUs";
 import ContactUsNew from "./components/ContactUs/ContactUSNew";
 
@@ -42,10 +42,10 @@ const App = () => {
         <Route path="/about" element={<NavAbout/>}  />
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<Industries/>}/>
-{/* <<<<<<< HEAD */}
+
         // <Route path="/services/:appdev" element={<AppDev/>} />
         // <Route path="/contact_us" element={<ContactUsNew/>} />
-{/* ======= */}
+
         <Route path="/services/appdev" element={<AppDev/>} />
         <Route path="/services/bulksms"   element={<BulkSMS/>} />
         <Route path="/services/contentwriting"   element={<ContentWriting/>} />
@@ -63,7 +63,7 @@ const App = () => {
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
         <Route path="/industries/appdev" element={<AppDev/>} />
-{/* >>>>>>> 8d63451d763278b765f23db6a0e1f5a7585fa60d */}
+
       </Routes>
      </Router>
   )
