@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import WhyChooseUs from "../aboutpages/WhyChooseUs";
 import IndustriesItem from "../mainindustries/IndustriesItem";
 
-const Industries = () => {
+const IndustriesAll = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slideLength = CarouselData.length;
 
@@ -118,4 +118,4 @@ const Industries = () => {
   );
 };
 
-export default Industries;
+export default IndustriesAll;

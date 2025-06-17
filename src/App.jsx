@@ -5,7 +5,11 @@ import Home from "./pages/Home";
 import NavAbout from "./components/navcontainer/NavAbout";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
-import Industries from "./pages/industries/industries";
+// import Industries from "./pages/industries/industries";
+
+
+import ContactUsNew from "./components/ContactUs/ContactUSNew";
+
 import AppDev from "./allsubpages/appdevelopment/AppDev";
 import CustomWebsiteDesign from "./allsubpages/customwebsitedesign/CustomWebsiteDesign";
 import DigitalMarketing from "./allsubpages/digialmarketing/DigitalMarketing";
@@ -22,7 +26,12 @@ import WordPress from "./allsubpages/wordpressdevelopment/WordPress";
 import BulkSMS from "./allsubpages/bulksms/BulkSMS";
 import ContentWriting from "./allsubpages/contentwriting/ContentWriting";
 import LogoDesign from "./allsubpages/logodesign/LogoDesign";
+
 import Business_Startup from "./allsubindustries/business_startup/Business_Startup";
+
+// import Industries from "./components/Industries/Industries";
+import IndustriesAll from "./pages/industries/IndustriesAll";
+
 
 
 
@@ -37,7 +46,10 @@ const App = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<NavAbout/>}  />
         <Route path="/services" element={<ServicesNavbar/>}/>
-        <Route path="/industries" element={<Industries/>}/>
+        <Route path="/industries" element={<IndustriesAll/>}/>
+
+      
+
         <Route path="/services/appdev" element={<AppDev/>} />
         <Route path="/services/bulksms"   element={<BulkSMS/>} />
         <Route path="/services/contentwriting"   element={<ContentWriting/>} />
@@ -54,7 +66,12 @@ const App = () => {
         <Route path="/services/websitedesign" element={<WebsiteDesign/>} />
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
+<<<<<<< HEAD
         {/* <Route path="/industries/appdev" element={<AppDev/>} /> */}
+=======
+        <Route path="/industries/appdev" element={<AppDev/>} />
+
+>>>>>>> 1b167a4ab40704719185a40da816a8d4440c469a
       </Routes>
      </Router>
   )
