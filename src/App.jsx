@@ -22,6 +22,7 @@ import WordPress from "./allsubpages/wordpressdevelopment/WordPress";
 import BulkSMS from "./allsubpages/bulksms/BulkSMS";
 import ContentWriting from "./allsubpages/contentwriting/ContentWriting";
 import LogoDesign from "./allsubpages/logodesign/LogoDesign";
+import Business_Startup from "./allsubindustries/business_startup/Business_Startup";
 
 
 
