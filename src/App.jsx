@@ -60,7 +60,7 @@ const App = () => {
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<IndustriesAll/>}/>
 
-<Route path="/about" element={<NewAbout />} />
+{/* <Route path="/about" element={<NewAbout />} /> */}
 
       
 
