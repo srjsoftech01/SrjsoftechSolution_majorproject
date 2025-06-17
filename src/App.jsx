@@ -46,13 +46,13 @@ const App = () => {
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<IndustriesAll/>}/>
 
-        // <Route path="/services/:appdev" element={<AppDev/>} />
+        {/* // <Route path="/services/:appdev" element={<AppDev/>} /> */}
         // <Route path="/contact_us" element={<ContactUsNew/>} />
 
         <Route path="/services/appdev" element={<AppDev/>} />
         <Route path="/services/bulksms"   element={<BulkSMS/>} />
         <Route path="/services/contentwriting"   element={<ContentWriting/>} />
-        <Route path="//services/customwebsitedesign"   element={<CustomWebsiteDesign/>} />
+        <Route path="/services/customwebsitedesign"   element={<CustomWebsiteDesign/>} />
         <Route path="/services/DigitalMarketing"   element={<DigitalMarketing/>} />
         <Route path="/services/Domain"   element={<Domain/>} />
         <Route path="/services/Ecommercedevelopment"   element={<EcommerceDevelopment/>} />
@@ -65,6 +65,7 @@ const App = () => {
         <Route path="/services/websitedesign" element={<WebsiteDesign/>} />
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
+        
         <Route path="/industries/appdev" element={<AppDev/>} />
 
       </Routes>
