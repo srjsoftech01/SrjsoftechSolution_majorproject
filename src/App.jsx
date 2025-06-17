@@ -8,7 +8,7 @@ import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 // import Industries from "./pages/industries/industries";
 
 
-import ContactUsNew from "./components/ContactUs/ContactUSNew";
+// import ContactUsNew from "./components/ContactUs/ContactUSNew";
 
 import AppDev from "./allsubpages/appdevelopment/AppDev";
 import CustomWebsiteDesign from "./allsubpages/customwebsitedesign/CustomWebsiteDesign";
