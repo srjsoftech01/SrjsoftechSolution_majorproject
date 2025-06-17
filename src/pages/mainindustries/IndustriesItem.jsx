@@ -6,7 +6,7 @@ const ItemData = [
     title: "Business Startup",
     description: "Empowering startups with digital solutions to launch, scale, and succeed in competitive markets.",
     image: ".././statupbusiness.avif",
-    path: "/industries/appdev",
+    path: "/industries/business_startup",
   },
   {
     title: "Enterprise Service",
