@@ -29,7 +29,6 @@ import LogoDesign from "./allsubpages/logodesign/LogoDesign";
 
 import Business_Startup from "./allsubindustries/business_startup/Business_Startup";
 
-// import Industries from "./components/Industries/Industries";
 import IndustriesAll from "./pages/industries/IndustriesAll";
 
 
@@ -66,12 +65,8 @@ const App = () => {
         <Route path="/services/websitedesign" element={<WebsiteDesign/>} />
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
-<<<<<<< HEAD
-        {/* <Route path="/industries/appdev" element={<AppDev/>} /> */}
-=======
-        <Route path="/industries/appdev" element={<AppDev/>} />
+        <Route path="/industries/business_startup"  element={<Business_Startup/>}/>
 
->>>>>>> 1b167a4ab40704719185a40da816a8d4440c469a
       </Routes>
      </Router>
   )
