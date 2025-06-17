@@ -21,7 +21,7 @@ export default function AboutDetail() {
           </p>
           <div className="flex justify-center lg:justify-start">
             <a
-              href="#contact"
+              href="/contact_us"
               className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg transition duration-300"
             >
               Contact Us

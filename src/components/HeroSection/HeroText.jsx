@@ -1,7 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom"; // 👈 Import useNavigate
+
 
 const HeroText = () => {
+
+  const navigate = useNavigate(); // 👈 Initialize useNavigate
+
+  const handleQuoteClick = () => {
+    navigate("/contact_us"); // 👈 Navigate to /quote page
+  };
+
+
   return (
     <div className="text-center py-24 px-6 bg-gradient-to-br from-black via-[#0e0e25] to-[#111] text-white relative overflow-hidden">
       
@@ -34,7 +44,7 @@ const HeroText = () => {
           Custom web and app solutions to drive business innovation and digital growth.
         </p>
 
-        <button className="mt-8 px-8 py-3 bg-gradient-to-r from-orange-500 to-pink-600 hover:from-orange-600 hover:to-pink-700 text-white font-bold rounded-full transition duration-300 shadow-lg hover:scale-105">
+        <button onClick={handleQuoteClick} className="mt-8 px-8 py-3 bg-gradient-to-r from-orange-500 to-pink-600 hover:from-orange-600 hover:to-pink-700 text-white font-bold rounded-full transition duration-300 shadow-lg hover:scale-105">
           Enquire Now &rarr;
         </button>
       </motion.div>

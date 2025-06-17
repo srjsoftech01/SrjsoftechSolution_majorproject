@@ -8,7 +8,7 @@ import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 // import Industries from "./pages/industries/industries";
 
 
-import ContactUsNew from "./components/ContactUs/ContactUSNew";
+// import ContactUsNew from "./components/ContactUs/ContactUSNew";
 
 import AppDev from "./allsubpages/appdevelopment/AppDev";
 import CustomWebsiteDesign from "./allsubpages/customwebsitedesign/CustomWebsiteDesign";
@@ -26,9 +26,23 @@ import WordPress from "./allsubpages/wordpressdevelopment/WordPress";
 import BulkSMS from "./allsubpages/bulksms/BulkSMS";
 import ContentWriting from "./allsubpages/contentwriting/ContentWriting";
 import LogoDesign from "./allsubpages/logodesign/LogoDesign";
-import Industries from "./components/Industries/Industries";
+
+import Business_Startup from "./allsubindustries/business_startup/Business_Startup";
+
 import IndustriesAll from "./pages/industries/IndustriesAll";
-// import Industries from "./components/Industriesndustries/Industries";
+import DigitalMarketingInd from "./allsubindustries/digitalmarketing/DigitalMarketingInd";
+// import EcommerceandRetail from "./allsubindustries/ecommerceandretail/EcommerceandRetailInd";
+import EcommerceandRetailInd from "./allsubindustries/ecommerceandretail/EcommerceandRetailInd";
+import EducationInd from "./allsubindustries/educationandlearning/EducationInd";
+import EnterpriseInd from "./allsubindustries/enterprise_service/EnterpriseInd";
+import EventandTicketInd from "./allsubindustries/eventandticket/EventandTicket";
+import FoodandWebvrageInd from "./allsubindustries/foodandbeverage/FoodandWebvrageInd";
+import OtherInd from "./allsubindustries/other/OtherInd";
+// import SocialSolutions from "./allsubindustries/socialnetworking/SocialSolutions";
+import TicketandBooking from "./allsubindustries/ticketingandbooking/TicketandBooking";
+import SocialNetworking from "./allsubindustries/socialnetworking/SocialNetworking";
+import HealthCare from "./allsubindustries/healthcare/HealthCare";
+import MediaInd from "./allsubindustries/media/MediaInd";
 
 
 
@@ -46,8 +60,10 @@ const App = () => {
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<IndustriesAll/>}/>
 
-        {/* // <Route path="/services/:appdev" element={<AppDev/>} /> */}
-        // <Route path="/contact_us" element={<ContactUsNew/>} />
+<Route path="/about" element={<NewAbout />} />
+
+      
+
 
         <Route path="/services/appdev" element={<AppDev/>} />
         <Route path="/services/bulksms"   element={<BulkSMS/>} />
@@ -65,8 +81,24 @@ const App = () => {
         <Route path="/services/websitedesign" element={<WebsiteDesign/>} />
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
-        
+{/*         
+<<<<<<< HEAD
         <Route path="/industries/appdev" element={<AppDev/>} />
+======= */}
+        <Route path="/industries/business_startup"  element={<Business_Startup/>}/>
+        <Route path="/industries/digitalmark"  element={<DigitalMarketingInd/>}/> 
+        <Route path="/industries/ecommerceandretail" element={<EcommerceandRetailInd/>}  /> 
+        <Route path="/industries/educationind" element={<EducationInd/>}  />
+        <Route path="/industries/enterpriseind" element={<EnterpriseInd/>}  />
+        <Route path="/industries/eventandticketind" element={<EventandTicketInd/>}  />
+        <Route path="/industries/foodandwebind" element={<FoodandWebvrageInd/>}  />
+        <Route path="/industries/otherind" element={<OtherInd/>}  />
+        <Route path="/industries/socialnetworking" element={<SocialNetworking/>}  />
+        <Route path="/industries/ticketandbooking" element={<TicketandBooking/>}  />
+        <Route path="/industries/healthcare" element={<HealthCare/>}/>
+        <Route path="/industries/media"  element={<MediaInd/>} />
+        
+
 
       </Routes>
      </Router>
