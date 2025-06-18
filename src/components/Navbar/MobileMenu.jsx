@@ -61,18 +61,18 @@ export default function MobileMenu({ setMenuOpen }) {
         </button>
         {open.industries && (
           <ul className="pl-4 space-y-1 text-sm transition-all duration-300 ease-in-out">
-            <li><Link to="/industries/education" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Education and Learning</Link></li>
+            <li><Link to="/industries/educationind" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Education and Learning</Link></li>
             <li><Link to="/industries/healthcare" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Healthcare and Fitness</Link></li>
-            <li><Link to="/industries/retail" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">E-Commerce and Retail</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Business Startup</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Enterprise Service</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Digital Marketing</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Social Marketing</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Event and Ticket</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Food and Beverage</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Ticket and Booking</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Media and Entertainment</Link></li>
-            <li><Link to="#" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Other</Link></li>
+            <li><Link to="/industries/ecommerceandretail" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">E-Commerce and Retail</Link></li>
+            <li><Link to="/industries/business_startup" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Business Startup</Link></li>
+            <li><Link to="/industries/enterpriseind" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Enterprise Service</Link></li>
+            <li><Link to="/industries/digitalmark" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Digital Marketing</Link></li>
+            <li><Link to="/industries/socialnetworking" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Social Marketing</Link></li>
+            <li><Link to="/industries/eventandticketind" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Event and Ticket</Link></li>
+            <li><Link to="/industries/foodandwebind" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Food and Beverage</Link></li>
+            <li><Link to="/industries/ticketandbooking" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Ticket and Booking</Link></li>
+            <li><Link to="/industries/media" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Media and Entertainment</Link></li>
+            <li><Link to="/industries/otherind" onClick={() => setMenuOpen(false)} className="hover:text-yellow-300">Other</Link></li>
           </ul>
         )}
       </div>

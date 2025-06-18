@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // 👈 Import useNavigate
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
+
 const Actions = () => {
   const [showcard, setShowCard] = useState(false);
   const navigate = useNavigate(); // 👈 Initialize useNavigate

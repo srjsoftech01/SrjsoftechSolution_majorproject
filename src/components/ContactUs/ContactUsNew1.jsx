@@ -5,7 +5,22 @@ import ReCAPTCHA from "react-google-recaptcha";
 import InputForm from "../ContactForm/InputForm";
 import Footer from "../footer/Footer";
 
-const ContactUsNew = () => {
+
+import {
+    FaEnvelope,
+    FaPhone,
+    FaMapMarkerAlt,
+    FaFacebookF,
+    FaTwitter,
+    FaLinkedinIn,
+    FaInstagram,
+    FaYoutube
+} from 'react-icons/fa';
+
+import { FaXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
+
+const ContactUsNew1 = () => {
     const [form, setForm] = useState({
         name: "",
         contact: "",
@@ -163,32 +178,66 @@ const ContactUsNew = () => {
                         </form>
 
                         {/* Right Contact Info Section */}
-                        <div className="w-full lg:w-1/2 bg-blue-500 text-white p-8  justify-center">
-                            <h2 className="text-2xl font-bold mt-10 mb-30 text-center">Contact us</h2>
+<div className="w-full lg:w-1/2 bg-blue-500 text-white p-8 justify-center">
+    <h2 className="text-2xl font-bold mt-10 mb-8 text-center">Contact</h2>
 
-                            <div className="space-y-4 text-base">
-                                <div className="flex items-start gap-2">
-                                    <span>📍</span>
-                                    <a href="https://www.facebook.com/SRJGRP/" aria-label="Facebook" ><p>Urbtech trade center, Infosys limited, Sector 132, Noida, Uttar Pradesh 201304</p></a>
+    <div className="space-y-6 text-base">
+        <div className="flex items-start gap-3">
+            <FaEnvelope className="mt-1 text-white" />
+            <div>
+                <strong>Email</strong>
+                <p>
+                    <a
+                        href="mailto:srjsoftechsolutions@gmail.com"
+                        className="text-white underline hover:text-gray-200"
+                    >
+                        srjsoftechsolutions@gmail.com
+                    </a>
+                </p>
+            </div>
+        </div>
 
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <span>📞</span>
+        <div className="flex items-start gap-3">
+            <FaPhone className="mt-1 text-white" />
+            <div>
+                <strong>Phone</strong>
+                <p>
+                    <a href="tel:+919266594199" className="text-white underline hover:text-gray-200">
+                        (+91) 9266594199
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+919266872499" className="text-white underline hover:text-gray-200">
+                        (+91) 9266872499
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+919220578799" className="text-white underline hover:text-gray-200">
+                        (+91) 9220578799
+                    </a>
+                </p>
+            </div>
+        </div>
 
-                                    <a href="https://www.facebook.com/SRJGRP/" aria-label="Facebook" ><p>+123 2355 98</p></a>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <span>✉️</span>
-                                    <a href="https://www.facebook.com/SRJGRP/" aria-label="Facebook" ><p>info@yoursite.com</p></a>
+        <div className="flex items-start gap-3">
+            <FaMapMarkerAlt className="mt-1 text-white" />
+            <div>
+                <strong>Address</strong>
+                <p>
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Infosys+Ltd,+Noida+Campus,+Urbtech+Trade+Center,+Tower+C+–+1101"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white underline hover:text-gray-200"
+                    >
+                        Infosys Ltd, Noida Campus, Urbtech Trade Center, Tower C – 1101
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <span>🌐</span>
-                                    <a href="https://www.facebook.com/SRJGRP/" aria-label="Facebook" ><p>yoursite.com</p></a>
-
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
@@ -200,4 +249,4 @@ const ContactUsNew = () => {
 
 };
 
-export default ContactUsNew;
+export default ContactUsNew1;

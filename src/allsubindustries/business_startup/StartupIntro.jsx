@@ -5,8 +5,8 @@ const StartupIntro = () => {
     <section className="py-12 px-6 max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
       <div className="flex-1">
         <img
-          src="/your-local-path/startup-illustration.png"
-          alt="Startup Illustration"
+          src="/Industry_works_intro_images/ind_Startup_image.jpg"
+          alt="Startup Intro Image"
           className="w-full rounded-lg shadow"
         />
       </div>

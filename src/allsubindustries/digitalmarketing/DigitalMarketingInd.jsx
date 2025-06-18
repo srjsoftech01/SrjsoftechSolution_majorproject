@@ -1,6 +1,9 @@
 import React from 'react'
 import MarketingHero from './MarketingHero'
 import MarketingIntro from './MarketingInto'
+import MarketingServices from './MarketingServices'
+import Footer from '../../components/footer/Footer'
+
 
 const DigitalMarketingInd = () => {
   return (
@@ -8,6 +11,8 @@ const DigitalMarketingInd = () => {
         <MarketingHero/>
         <MarketingIntro/>
         <MarketingServices/>
+                <Footer/>
+
     </div>
   )
 }
