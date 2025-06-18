@@ -31,14 +31,14 @@ import Business_Startup from "./allsubindustries/business_startup/Business_Start
 
 import IndustriesAll from "./pages/industries/IndustriesAll";
 import DigitalMarketingInd from "./allsubindustries/digitalmarketing/DigitalMarketingInd";
-import EcommerceandRetail from "./allsubindustries/ecommerceandretail/EcommerceandRetailInd";
+// import EcommerceandRetail from "./allsubindustries/ecommerceandretail/EcommerceandRetailInd";
 import EcommerceandRetailInd from "./allsubindustries/ecommerceandretail/EcommerceandRetailInd";
 import EducationInd from "./allsubindustries/educationandlearning/EducationInd";
 import EnterpriseInd from "./allsubindustries/enterprise_service/EnterpriseInd";
 import EventandTicketInd from "./allsubindustries/eventandticket/EventandTicket";
 import FoodandWebvrageInd from "./allsubindustries/foodandbeverage/FoodandWebvrageInd";
 import OtherInd from "./allsubindustries/other/OtherInd";
-import SocialSolutions from "./allsubindustries/socialnetworking/SocialSolutions";
+// import SocialSolutions from "./allsubindustries/socialnetworking/SocialSolutions";
 import TicketandBooking from "./allsubindustries/ticketingandbooking/TicketandBooking";
 import SocialNetworking from "./allsubindustries/socialnetworking/SocialNetworking";
 import HealthCare from "./allsubindustries/healthcare/HealthCare";
@@ -60,12 +60,15 @@ const App = () => {
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/industries" element={<IndustriesAll/>}/>
 
+{/* <Route path="/about" element={<NewAbout />} /> */}
+
       
+
 
         <Route path="/services/appdev" element={<AppDev/>} />
         <Route path="/services/bulksms"   element={<BulkSMS/>} />
         <Route path="/services/contentwriting"   element={<ContentWriting/>} />
-        <Route path="//services/customwebsitedesign"   element={<CustomWebsiteDesign/>} />
+        <Route path="/services/customwebsitedesign"   element={<CustomWebsiteDesign/>} />
         <Route path="/services/DigitalMarketing"   element={<DigitalMarketing/>} />
         <Route path="/services/Domain"   element={<Domain/>} />
         <Route path="/services/Ecommercedevelopment"   element={<EcommerceDevelopment/>} />
@@ -78,7 +81,10 @@ const App = () => {
         <Route path="/services/websitedesign" element={<WebsiteDesign/>} />
         <Route path="/services/whatsapp" element={<Whatsapp/>} />
         <Route path="/services/wordpress" element={<WordPress/>} />
-        
+{/*         
+<<<<<<< HEAD
+        <Route path="/industries/appdev" element={<AppDev/>} />
+======= */}
         <Route path="/industries/business_startup"  element={<Business_Startup/>}/>
         <Route path="/industries/digitalmark"  element={<DigitalMarketingInd/>}/> 
         <Route path="/industries/ecommerceandretail" element={<EcommerceandRetailInd/>}  /> 
@@ -92,6 +98,7 @@ const App = () => {
         <Route path="/industries/healthcare" element={<HealthCare/>}/>
         <Route path="/industries/media"  element={<MediaInd/>} />
         
+
 
       </Routes>
      </Router>

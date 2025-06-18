@@ -29,7 +29,7 @@ const allServices = [
     description:
       "We craft custom-built websites tailored to your brand goals and target market.",
     image: "https://img.freepik.com/free-photo/ui-ux-representations-with-laptop_23-2150201871.jpg?...",
-      path:"/customwebsitedesign",
+      path:"/services/customwebsitedesign",
   },
   {
     title: "Web Development",

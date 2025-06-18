@@ -16,7 +16,7 @@ const SeoHero = () => {
 
         <div className="mt-6 inline-block backdrop-blur-lg bg-white/30 rounded-full px-6 py-3 shadow-lg transition hover:scale-105">
           <a
-            href="/contact"
+            href="/contact_us"
             className="text-white font-medium bg-gradient-to-r from-yellow-500 to-green-500 px-6 py-2 rounded-full shadow-md hover:opacity-90"
           >
             Get Free Audit →

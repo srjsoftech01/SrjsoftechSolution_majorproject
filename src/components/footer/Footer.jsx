@@ -26,7 +26,7 @@ const Footer = () => {
                         We are a premier website & mobile app development company offering tailored solutions to fit your needs and budget.
                     </p>
                     <Link
-  to="/contact"
+  to="/contact_us"
   className="inline-block mt-6 px-6 py-2 text-white bg-blue-600 rounded-full shadow hover:bg-blue-700 transition-colors duration-300 text-sm font-semibold"
 >
   Enquire Now →

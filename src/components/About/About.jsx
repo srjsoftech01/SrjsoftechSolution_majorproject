@@ -8,7 +8,7 @@ const About = () => {
             LOOKING FOR A CREATIVE WEBSITE DEVELOPMENT COMPANY?
         </h4>
         <h1 className='text-4xl font-bold text-black'>We are Best Website 
-         Designing Comany  <br /> in
+         Designing Company  <br /> in
          <span className='text-red-500 text-4xl px-2'>India</span>
          </h1>
 
