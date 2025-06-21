@@ -68,8 +68,8 @@ const NavLinks = () => {
         /> */}
         <Link to="/industries" className='hover:underline text-white'>INDUSTRIES</Link>
 
-        <a href="#" className='hover:underline'>BLOG</a>
-        <a href="/contact_us" className='hover:underline'>CONTACT US</a>
+        <Link to="#" className='hover:underline'>BLOG</Link>
+        <Link to="/contact_us" className='hover:underline'>CONTACT US</Link>
         
     </div>
   )

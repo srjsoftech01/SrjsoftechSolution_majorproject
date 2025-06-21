@@ -9,7 +9,6 @@ import ServicesNavbar from "./components/navcontainer/ServicesNavbar";
 
 
 import ContactUsNew from "./components/ContactUs/ContactUSNew";
-import ContactUsNew1 from "./components/ContactUs/ContactUsNew1";
 
 import AppDev from "./allsubpages/appdevelopment/AppDev";
 import CustomWebsiteDesign from "./allsubpages/customwebsitedesign/CustomWebsiteDesign";
@@ -60,7 +59,6 @@ const App = () => {
         <Route path="/about" element={<NavAbout/>}  />
         <Route path="/services" element={<ServicesNavbar/>}/>
         <Route path="/contact_us" element={<ContactUsNew/>}/>
-        <Route path="/contact_us_new_1" element={<ContactUsNew1/>}/>
 
         <Route path="/industries" element={<IndustriesAll/>}/>
 

@@ -120,11 +120,10 @@ const ContactUsNew = () => {
                             <select
                                 name="service"
                                 required
-                                className="w-full p-2 border border-gray-400 rounded"
-
+                                className="w-full p-2 border border-gray-400 rounded text-gray-800"
                                 onChange={handleChange}
                             >
-                                <option style={{ color: "" }} value="">Select Service</option>
+                                <option value="" disabled selected className="text-gray-400">Select Service</option>
                                 <option value="website-designing">Website Designing</option>
                                 <option value="web-development">Web Development</option>
                                 <option value="ecommerce-development">E-Commerce Development</option>
@@ -142,6 +141,7 @@ const ContactUsNew = () => {
                                 <option value="bulk-sms">Bulk SMS</option>
                                 <option value="other">Other</option>
                             </select>
+
 
                             <textarea
                                 name="message"
@@ -181,7 +181,7 @@ const ContactUsNew = () => {
                         </form>
 
                         <div className="w-full lg:w-1/2 bg-gradient-to-br from-white via-green-100 to-emerald-400 text-gray-800 p-8 justify-center">
-                           <h2 className="text-2xl font-bold mt-2 mb-8 text-center text-emerald-600">Wanna connect with us!</h2>
+                            <h2 className="text-2xl font-bold mt-2 mb-8 text-center text-emerald-600">Wanna connect with us!</h2>
 
 
                             <div className="space-y-6 text-base">
